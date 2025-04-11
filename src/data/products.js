@@ -1,59 +1,59 @@
 const products = [
     {
-      id: "6228fe63b7e6cb904bbe0165",
-      price: 150,
-      name: "Suéter Branco",
+      id: "1",
+      price: 40,
+      name: "Hamburguer",
       imageUrl:
-        "https://images.unsplash.com/flagged/photo-1559502867-c406bd78ff24?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=685&q=80",
+        "https://d21wiczbqxib04.cloudfront.net/0cgzIYAkSHOW1WRaPzx2ovmu_4c=/0x375/smart/https://osuper-ecommerce-supernahora.s3-sa-east-1.amazonaws.com/64f69c28-hamburguer.png",
     },
     {
-      id: "6228fec7b7e6cb904bbe016f",
-      name: "Regata Azul",
-      price: 150,
+      id: "2",
+      name: "Pastel",
+      price: 25,
       imageUrl:
-        "https://images.unsplash.com/photo-1469334031218-e382a71b716b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80s",
+        "https://s2-receitas.glbimg.com/5IyJ4J943DtlZue1hX0c4RzYZLo=/0x0:2048x1152/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_1f540e0b94d8437dbbc39d567a1dee68/internal_photos/bs/2023/D/6/qvOA3eTAiyQYBl19iiXw/pastel-de-carne-de-sao-paulo.jpg",
     },
     {
-      price: 200,
-      id: "6228ff71b7e6cb904bbe0175",
+      id: "3",
+      price: 18,
       imageUrl:
-        "https://images.unsplash.com/photo-1584670747417-594a9412fba5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
-      name: "Suéter Vermelho Vibrante",
+        "https://www.coisasdaleia.com.br/wp-content/uploads/2023/05/cachorro-quente.jpg",
+      name: "Cachorro Quente",
     },
     {
-      name: "Vestido Vermelho",
-      price: 250,
+      id: "4",
+      name: "Pizza",
+      price: 40,
       imageUrl:
-        "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=746&q=80",
-      id: "6228ff93b7e6cb904bbe0177",
+        "https://static.wixstatic.com/media/0b1a69_0d438fb0f5824350878cf133eb0dd59b~mv2.jpg/v1/fill/w_640,h_400,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/0b1a69_0d438fb0f5824350878cf133eb0dd59b~mv2.jpg",
     },
     {
-      price: 300,
-      id: "6228fe80b7e6cb904bbe0168",
-      name: "Jaqueta Xadrez",
+      id: "5",
+      price: 20,
+      name: "Açai",
       imageUrl:
-        "https://images.unsplash.com/photo-1525450824786-227cbef70703?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+        "https://ciclovivo.com.br/wp-content/uploads/2016/09/acai_mitos_verdades.jpg",
     },
     {
-      price: 200,
-      name: "Blusa Branca",
-      id: "6228ff31b7e6cb904bbe0172",
+      id: "6",
+      price: 60,
+      name: "Bolo",
       imageUrl:
-        "https://images.unsplash.com/photo-1624206112918-f140f087f9b5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+        "https://cdn.shoppub.io/cdn-cgi/image/w=1000,h=1000,q=80,f=auto/beirario/media/uploads/produtos/foto/xrwupuqt/file.jpg",
     },
     {
-      price: 200,
+      id: "7",
+      price: 15,
       imageUrl:
-        "https://images.unsplash.com/photo-1582418702059-97ebafb35d09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=715&q=80",
-      id: "62290014b7e6cb904bbe017c",
-      name: "Calça Jeans Azul",
+        "https://i0.wp.com/canaldareceita.com.br/wp-content/uploads/2024/09/COXINHA-FIT.jpg?fit=1000%2C600&ssl=1",
+      name: "Coxinha",
     },
     {
-      id: "6228ffa5b7e6cb904bbe017a",
-      name: "Vestido Branco",
-      price: 250,
+      id: "8",
+      name: "Esfirra",
+      price: 15,
       imageUrl:
-        "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80",
+        "https://vovopalmirinha.com.br/wp-content/uploads/2017/10/Esfirra-de-carne-moida-com-brocolis.jpg",
     },
   ];
   

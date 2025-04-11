@@ -13,17 +13,20 @@ export default function Cart ({ isVisible, setIsVisible }) {
 
   return (
     <div
-    className={`fixed inset-0 bg-black bg-opacity-70 flex justify-end transition-all duration-300 ${
+    className={`fixed inset-0 bg-white bg-opacity-70 flex justify-end transition-all duration-300 ${
       isVisible ? "opacity-100 visible" : "opacity-0 invisible"
     }`}
+    style={{ backgroundColor: "rgba(255, 255, 255, 0.7)" }}
   >
     <div className="w-full" onClick={handleEscapeAreaClick}></div>
-    <div className="h-full min-w-[500px] z-200 bg-white p-5 overflow-y-scroll md:min-w-[85%]">
-      <p className="text-lg font-semibold mb-4">Seu Carrinho</p>
+    <div 
+      className="h-full max-w-[80%] bg-white p-5 overflow-y-scroll md:min-w-[40%]"
+    >
+      <p className="text-lg font-semibold mb-4 text-black">Seu Carrinho</p>
       {products.map((product) => (
         <CartItem product={product} key={product.id} />
       ))}
-      <p className="font-semibold text-base mb-4">Total: R${productsTotalPrice}</p>
+      <p className="font-semibold text-base mb-4 text-black">Total: R${productsTotalPrice}</p>
     </div>
   </div>
   );
