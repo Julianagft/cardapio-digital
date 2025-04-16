@@ -17,6 +17,6 @@ Apresentar um resumo do pedido para confirmação.
 Permitir que o cliente confirme ou cancele o pedido.
 Observação: Mensagens claras e objetivas. Apresente informações necessárias para o seu usuário.
 
-Para essa atividade optei por utilizar Next.js e algumas bibliotecas de estilo como Tailwind e Mui. 
+Para essa atividade optei por utilizar Next.js e algumas bibliotecas de estilo como Tailwind e Mui. Também utilizei REDUX para controlar o estado dos ítens adicionados no carrinho de compras!
 
 Para visitar o projeto basta acessar o link abaixo: 
