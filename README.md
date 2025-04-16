@@ -1,36 +1,22 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Esse projeto foi criado como parte da Avaliação da Disciplina Usabilidade e Interface Homem Máquina do curso Análise e Desenvolvimento de Sistemas (UNINASSAU)
 
-## Getting Started
+Foi solicitada a criação de um cardápio digital onde eram exigidos os seguintes requisitos:
 
-First, run the development server:
+Apresentação do cardápio:
+Organizar os itens em categorias (ex: Hambúrgueres, Salgados, Bebidas).
+Exibir cada item com nome, descrição breve e preço.
+Utilizar checkboxes para que o cliente possa selecionar os itens desejados.
+Gerenciamento do pedido:
+Permitir que o cliente escolha a quantidade de cada item selecionado.
+Apresentar um carrinho de compras com os itens selecionados, quantidades e total do pedido.
+Oferecer opções para adicionar mais itens ou finalizar o pedido.
+Finalização do pedido:
+Exibir as opções de pagamento: cartão (débito ou crédito) ou Pix.
+Solicitar o nome completo e endereço do cliente para entrega.
+Apresentar um resumo do pedido para confirmação.
+Permitir que o cliente confirme ou cancele o pedido.
+Observação: Mensagens claras e objetivas. Apresente informações necessárias para o seu usuário.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Para essa atividade optei por utilizar Next.js e algumas bibliotecas de estilo como Tailwind e Mui. 
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Para visitar o projeto basta acessar o link abaixo: 
