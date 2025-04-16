@@ -19,4 +19,4 @@ Observação: Mensagens claras e objetivas. Apresente informações necessárias
 
 Para essa atividade optei por utilizar Next.js e algumas bibliotecas de estilo como Tailwind e Mui. Também utilizei REDUX para controlar o estado dos ítens adicionados no carrinho de compras!
 
-Para visitar o projeto basta acessar o link abaixo: 
+Para visitar o projeto basta acessar o link abaixo: https://cardapio-digital-nine.vercel.app/
